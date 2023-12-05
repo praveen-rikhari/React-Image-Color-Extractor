@@ -1,8 +1,38 @@
-# React + Vite
+# Image Color Extractor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Image Color Extractor is a web application that allows users to extract dominant colors from images provided via URL or manual upload. The application is built using React JS, styled with CSS, and is fully responsive.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Upload images or provide image URLs to extract dominant colors.
+- Colors are displayed below the image, and users can click on each color block to copy its hex code to the clipboard.
+
+## Live Demo
+
+Check out the live demo: [Image Color Extractor](https://parveen-image-color-extractor.netlify.app/)
+
+## Technologies Used
+
+- React JS
+- CSS
+- [react-hot-toast](https://www.npmjs.com/package/react-hot-toast)
+- [react-copy-to-clipboard](https://www.npmjs.com/package/react-copy-to-clipboard)
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/praveen-rikhari/your-repo.git
+   cd React-Image-Color-Extractor
+   npm install
+   npm run dev
+
+2. ## Contributing
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+    Fork the repository.
+    Create a new branch.
+    Make your changes and commit them.
+    Push to your fork and submit a pull request.
